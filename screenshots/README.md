@@ -1,3 +1,2 @@
-# Dashboard Screenshots
-Add screenshots folder
+Executive-ready Power BI dashboard showcasing SaaS financial metrics and decision-focused visuals.
 
