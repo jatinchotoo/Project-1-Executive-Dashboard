@@ -1,6 +1,18 @@
 # Project-1-Executive-Dashboard
 # Project 1 – Executive Financial Performance Dashboard
 
+Project-1-Executive-Dashboard/
+├── README.md
+├── Project1-Dashboard.pbix   # your Power BI file
+├── /screenshots              # all dashboard images
+│   ├── Executive summary.png
+│   ├── Revenue Analysis.png
+│   ├── Ratios Overview.png
+│   ├── Comparative Dashboard.png
+│   └── Benchmark Dashboard.png
+└── /docs
+    └── dashboard-walkthrough.md
+
 ## Overview
 This project is a Power BI executive dashboard designed to present key
 financial performance indicators in a clear, decision-focused format.
