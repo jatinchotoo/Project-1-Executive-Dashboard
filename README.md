@@ -1,4 +1,4 @@
-# Project-1-Executive-Dashboard-README.md
+# Project-1-Executive-Dashboard
 # Project 1 – Executive Financial Performance Dashboard
 
 ## Overview
