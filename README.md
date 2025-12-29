@@ -32,10 +32,20 @@ represent any real organisation.
 
 ## Dashboard Preview
 
+### Executive Summary
 ![Executive Summary](screenshots/executive-summary.png)
-![Financial Performance](screenshots/financial-performance.png)
-![Ratios and Risk](screenshots/ratios-risk.png)
-![Comparatives](screenshots/comparatives.png)
+
+### Revenue Analysis
+![Revenue Analysis](screenshots/revenue-analysis.png)
+
+### Ratios Overview
+![Ratios Overview](screenshots/ratios-overview.png)
+
+### Comparative Analysis
+![Comparative Dashboard](screenshots/comparative-dashboard.png)
+
+### Benchmark Analysis
+![Benchmark Dashboard](screenshots/benchmark-dashboard.png)
 
 ## Live Dashboard
 Power BI Service link: *(available upon request)*
