@@ -36,3 +36,7 @@ represent any real organisation.
 ![Financial Performance](screenshots/financial-performance.png)
 ![Ratios and Risk](screenshots/ratios-risk.png)
 ![Comparatives](screenshots/comparatives.png)
+
+## Live Dashboard
+Power BI Service link: *(available upon request)*
+
