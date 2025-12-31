@@ -9,3 +9,69 @@ Net Profit Margin % = DIVIDE([Total Net Profit], [Total Revenue], 0)
 ROE % = DIVIDE([Total Net Profit], [Total Shareholders Equity], 0)
 
 Debt-to-Equity = DIVIDE([Total Liabilities], [Total Shareholders Equity], 0)
+
+/* ============================================================
+   PROJECT 1: EXECUTIVE FINANCIAL PERFORMANCE MEASURES (DAX)
+   ============================================================
+   Author: Jatin Chotoo
+   Purpose: Professional Financial Intelligence & SaaS Analytics
+*/
+
+// --- 1. CORE PERFORMANCE METRICS ---
+
+Total Revenue = SUM('financials.csv'[Revenue])
+
+ROE (Return on Equity) = 
+DIVIDE(
+    SUM('financials.csv'[Net_Profit]), 
+    SUM('financials.csv'[Shareholders_Equity])
+)
+
+Debt-to-Equity = 
+DIVIDE(
+    SUM('financials.csv'[Total_Liabilities]), 
+    SUM('financials.csv'[Shareholders_Equity])
+)
+
+
+// --- 2. GROWTH INTELLIGENCE (CAGR) ---
+
+Revenue CAGR = 
+VAR MinYear = CALCULATE(MIN('Financials.csv'[Year]), ALLEXCEPT('Financials.csv', 'Financials.csv'[Company]))
+VAR MaxYear = CALCULATE(MAX('Financials.csv'[Year]), ALLEXCEPT('Financials.csv', 'Financials.csv'[Company]))
+VAR StartRevenue = CALCULATE(MAX('Financials.csv'[Revenue]), 'Financials.csv'[Year] = MinYear, ALLEXCEPT('Financials.csv', 'Financials.csv'[Company]))
+VAR EndRevenue = CALCULATE(MAX('Financials.csv'[Revenue]), 'Financials.csv'[Year] = MaxYear, ALLEXCEPT('Financials.csv', 'Financials.csv'[Company]))
+VAR YearCount = MaxYear - MinYear
+RETURN
+    IF(
+        NOT ISBLANK(StartRevenue) && NOT ISBLANK(EndRevenue) && YearCount > 0,
+        POWER(EndRevenue / StartRevenue, 1 / YearCount) - 1,
+        BLANK()
+    )
+
+
+// --- 3. RISK & DECISION SIGNALS (Traffic Lights) ---
+
+ROE_TrafficLight = 
+SWITCH(
+    TRUE(),
+    [ROE] >= 0.15, "🟢", // Outperforming
+    [ROE] >= 0.05, "🟡", // Stable
+    "🔴"                 // Under Review
+)
+
+DebtEquity_TrafficLight = 
+SWITCH(
+    TRUE(),
+    [DebtToEquity] < 0.6, "🟢", // Low Leverage
+    [DebtToEquity] <= 1, "🟡",  // Moderate Leverage
+    "🔴"                        // High Leverage Risk
+)
+
+RiskSignal = 
+SWITCH(
+    TRUE(),
+    [Debt-to-Equity] > 1.5 && [Net Profit Margin (%)] < 0.05, "High Risk",
+    [Debt-to-Equity] > 1.0 && [Net Profit Margin (%)] < 0.10, "Moderate Risk",
+    "Low Risk"
+)
