@@ -1,1 +1,11 @@
+// --- PROFITABILITY MEASURES ---
 
+Gross Margin % = DIVIDE([Total Gross Profit], [Total Revenue], 0)
+
+Net Profit Margin % = DIVIDE([Total Net Profit], [Total Revenue], 0)
+
+// --- CAPITAL STRUCTURE MEASURES ---
+
+ROE % = DIVIDE([Total Net Profit], [Total Shareholders Equity], 0)
+
+Debt-to-Equity = DIVIDE([Total Liabilities], [Total Shareholders Equity], 0)
