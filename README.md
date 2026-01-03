@@ -93,27 +93,24 @@ Benchmark dashboards using gauge visuals to measure:
 - **Data Model:** `screenshots/Data_Model_Schema.png`  
 - **Interactive Dashboard:** `Project1-Dashboard.pbix`  
 
-Project_1_Executive_Dashboard/
+## 📁 Repository Structure
+
+Project_1_FP&A-Dashboard
+├── DAX/
+│   ├── Exploratory Measures.dax
+│   └── Data Model Script.dax
 ├── Data/
-│   ├── Financial_Ratios_Reference.csv.xlsx
-│   ├── Financial_Raw_Data.csv.xlsx
-│   └── folder/
-│
-├── screenshots/
-│   ├── Executive_summary.png
-│   ├── Revenue Analysis.png
-│   ├── Ratios Overview.png
-│   ├── Benchmark Dashboard.png
-│   ├── Comparative Dashboard.png
-│   └── Data_Model_Schema.png
-│
-├── scripts/
-│   ├── measures.dax
-│   ├── scripts measures.dax.txt
-│   └── README.md
-│
-├── Project1-Dashboard.pbix
-└── README.md
+│   ├── Interactive Data.xlsx
+│   └── Financial Ratios.xlsx
+├── Dashboards/
+│   ├── Executive Dashboard.pbix
+│   ├── Comparative Dashboard.pbix
+│   └── Financial Ratios Model.pbix
+├── src/
+│   └── (optional scripts)
+├── README.md
+└── Recruiter Notes.md
+
 
 ## 👨‍💻 Recruiter Note
 This project demonstrates the ability to translate **raw financial data into capital allocation and risk decisions**, directly applicable to roles in:
