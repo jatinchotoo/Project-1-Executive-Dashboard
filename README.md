@@ -1,6 +1,6 @@
 # 📊 Executive Financial Performance & SaaS Analytics Platform
 
-![Executive Dashboard Preview](screenshots/Executive_Summary.png)
+![Executive Dashboard Preview](screenshots/Executive_summary.png)
 
 ## Executive Summary
 A CFO‑oriented Power BI intelligence platform designed to transform fragmented SaaS billing and general ledger data into **decision‑ready financial signals**.
@@ -96,7 +96,7 @@ Benchmark dashboards using gauge visuals to measure:
 ---
 
 ## 📁 Repository Structure
-<pre>## 📁 Repository Structure```Project_1_Executive_Dashboard/├── Data/│   ├── Financial_Ratios_Reference.csv.xlsx│   ├── Financial_Raw_Data.csv.xlsx│   └── folder/│├── screenshots/│   ├── Executive_summary.png│   ├── Revenue Analysis.png│   ├── Ratios Overview.png│   ├── Benchmark Dashboard.png│   ├── Comparative Dashboard.png│   └── Data_Model_Schema.png│├── scripts/│   ├── measures.dax│   ├── scripts measures.dax.txt│   └── README.md│├── Project1-Dashboard.pbix└── README.md```</pre>
+```Project_1_Executive_Dashboard/├── Data/│   ├── Financial_Ratios_Reference.csv.xlsx│   ├── Financial_Raw_Data.csv.xlsx│   └── folder/│├── screenshots/│   ├── Executive_summary.png│   ├── Revenue Analysis.png│   ├── Ratios Overview.png│   ├── Benchmark Dashboard.png│   ├── Comparative Dashboard.png│   └── Data_Model_Schema.png│├── scripts/│   ├── measures.dax│   ├── scripts measures.dax.txt│   └── README.md│├── Project1-Dashboard.pbix└── README.md```</pre>
 
 
 ## 👨‍💻 Recruiter Note
