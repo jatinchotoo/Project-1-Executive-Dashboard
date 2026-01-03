@@ -95,21 +95,22 @@ Benchmark dashboards using gauge visuals to measure:
 
 ## 📁 Repository Structure
 
-Project_1_FP&A-Dashboard
-├── DAX/
-│   ├── Exploratory Measures.dax
-│   └── Data Model Script.dax
-├── Data/
-│   ├── Interactive Data.xlsx
-│   └── Financial Ratios.xlsx
-├── Dashboards/
-│   ├── Executive Dashboard.pbix
-│   ├── Comparative Dashboard.pbix
-│   └── Financial Ratios Model.pbix
-├── src/
-│   └── (optional scripts)
-├── README.md
-└── Recruiter Notes.md
+Project_1_Executive_Dashboard/
+├─ Data/
+│  ├─ Financial_Ratios_Reference.csv.xlsx
+│  └─ Financial_Raw_Data.csv.xlsx
+├─ screenshots/
+│  ├─ Executive_summary.png
+│  ├─ Revenue Analysis.png
+│  ├─ Ratios Overview.png
+│  ├─ Benchmark Dashboard.png
+│  └─ Comparative Dashboard.png
+├─ Data_Model_Schema.png
+├─ scripts/
+│  ├─ measures.dax
+│  └─ scripts_measures.dax.txt
+├─ Project1-Dashboard.pbix
+└─ README.md
 
 
 ## 👨‍💻 Recruiter Note
