@@ -111,8 +111,6 @@ Project_1_Executive_Dashboard/
 ├─ Project1-Dashboard.pbix
 └─ README.md
 
-
-
 ## 👨‍💻 Recruiter Note
 This project demonstrates the ability to translate **raw financial data into capital allocation and risk decisions**, directly applicable to roles in:
 
