@@ -96,6 +96,7 @@ Benchmark dashboards using gauge visuals to measure:
 ---
 
 ## 📁 Repository Structure
+
 ---
 Project_1_Executive_Dashboard/
 │
