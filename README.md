@@ -97,24 +97,7 @@ Benchmark dashboards using gauge visuals to measure:
 
 ## 📁 Repository Structure
 
----
-Project_1_Executive_Dashboard/
-│
-├── screenshots/
-│ ├── Executive Summary.png
-│ ├── Revenue Analysis.png
-│ ├── Ratios Overview.png
-│ ├── Benchmark Dashboard.png
-│ └── Data_Model_Schema.png
-│
-├── scripts/
-│ └── measures.dax
-│
-├── Project1-Dashboard.pbix
-└── README.md
----
 
----
 
 ## 👨‍💻 Recruiter Note
 This project demonstrates the ability to translate **raw financial data into capital allocation and risk decisions**, directly applicable to roles in:
