@@ -1,6 +1,5 @@
 # 📊 Executive Financial Performance & SaaS Analytics Platform
 
-<img src="screenshots/Executive%20Summary.png" width="600"/> **Executive Summary Preview**
 ![Executive Dashboard Preview](screenshots/Executive_Summary.png)
 
 ## Executive Summary
