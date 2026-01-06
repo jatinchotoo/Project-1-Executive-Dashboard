@@ -1,102 +1,177 @@
-# 📊 Executive Financial Performance & SaaS Analytics Platform
+# 📊 Executive SaaS Financial Performance & Capital Governance Dashboard
 
-![Executive Dashboard Preview](screenshots/Executive_summary.png)
+## 🖼️ Executive Dashboard Snapshots
 
-## Executive Summary
-A CFO‑oriented Power BI intelligence platform designed to transform fragmented SaaS billing and general ledger data into **decision‑ready financial signals**.
+Recruiters and executives can immediately see **CFO-ready visuals**:
 
-The dashboard automates unit economics, capital efficiency ratios, and cross‑entity benchmarking to support **executive capital allocation, performance management, and risk governance**.
+| Executive Overview | Revenue & Growth Analysis |
+|------------------|--------------------------|
+| ![Executive Summary](screenshots/Executive_summary.png) | ![Revenue Analysis](screenshots/Revenue Analysis.png) |
+
+| Capital Ratios & Risk | Benchmark / Hurdle-Rate Accountability |
+|---------------------|--------------------------------------|
+| ![Ratios Overview](screenshots/Ratios Overview.png) | ![Benchmark Dashboard](screenshots/Benchmark Dashboard.png) |
+
+| Comparative Entity Performance |
+|-------------------------------|
+| ![Comparative Dashboard](screenshots/Comparative Dashboard.png) |
+
+*All dashboards are taken directly from the Power BI PBIX file. These visuals demonstrate governance, capital discipline, and entity-level decision support.*
 
 ---
 
-## 💡 Why This Project Is Different
-Most dashboards explain *what happened*.
+## Executive Thesis
 
-This platform is engineered to signal **what executives should do next** by embedding:
-- Financial theory (ROE, leverage efficiency, capital productivity)
-- Explicit performance thresholds
-- Automated risk‑signaling logic
+In an environment of constrained capital and permanent accountability, executive finance teams require more than descriptive reporting. They require **decision-grade performance governance**.
 
-Directly into the analytics layer — reflecting how analytics are actually used in **CFO, FP&A, and Strategy environments**.
+This project delivers a **CFO-oriented Power BI dashboard** that consolidates fragmented SaaS billing and general ledger data into **capital allocation, risk, and performance signals** suitable for senior leadership and board-level oversight.
+
+The platform is designed to support **capital stewardship, return discipline, and entity-level accountability**, rather than exploratory or experimental analytics.
 
 ---
 
-## 🎯 Business Intelligence Objectives
+## Business Context & Problem Statement
+
+SaaS and multi-entity organisations frequently face:
+
+- Fragmented financial and billing data across systems  
+- Manual reconciliation during reporting and close cycles  
+- Limited visibility into **capital efficiency**, not just revenue growth  
+- Inconsistent benchmarking across subsidiaries  
+
+These conditions impair timely decision-making and weaken capital discipline.
+
+The objective of this project was to **centralise financial performance data**, **standardise executive metrics**, and **enable governed, repeatable performance oversight** through a single analytical platform.
+
+---
+
+## Solution Overview
+
+A structured Power BI solution was developed to serve as an **executive performance and capital governance layer**.
+
+Key components include:
+
+- Normalised financial and billing datasets using Power Query (M)  
+- A star-schema data model optimised for auditability and DAX performance  
+- Custom DAX measures focused on growth quality, capital efficiency, and risk  
+- Executive dashboards designed for CFO, ExCo, and board review  
+
+The solution prioritises **clarity, control, and trust**, not technical novelty.
+
+---
+
+## Strategic Decision Support
+
 This platform enables senior leadership to:
-- Monitor **MRR / ARR growth quality**, not just topline volume
-- Evaluate **capital structure efficiency** (ROE, Debt‑to‑Equity, Liquidity)
-- Identify underperforming entities using **traffic‑light risk logic**
-- Benchmark subsidiaries against **internal hurdle rates** (15% ROE)
+
+- **Assess Growth Quality**  
+  Distinguish between headline revenue growth and economically sustainable MRR / ARR performance.
+
+- **Enforce Capital Discipline**  
+  Benchmark entity-level Return on Equity (ROE) against an internal **15% hurdle rate**.
+
+- **Identify Emerging Risk**  
+  Apply traffic-light logic to flag underperforming or deteriorating entities early.
+
+- **Evaluate Capital Structure Efficiency**  
+  Monitor leverage, liquidity, and debt utilisation across subsidiaries.
 
 ---
 
-## 🛠️ Data Architecture & Governance
-- **Data Modeling:** Star schema optimized for DAX performance and scalability  
-- **ETL:** Power Query (M) to normalize heterogeneous ledger and billing files  
-- **DAX Engineering:** Custom time‑intelligence measures for CAGR, YoY growth, and risk flags  
+## Executive Intelligence Layers
 
-This architecture mirrors real‑world finance transformation initiatives.
+### 1️⃣ Executive Performance Overview (CFO View)
 
----
+High-level KPIs focused on:
 
-## 📊 Dashboard Intelligence Layers
+- Revenue velocity and margin sustainability  
+- Capital efficiency indicators  
+- Consolidated risk signals  
 
-### 1️⃣ Executive Summary (CFO View)
-High‑level KPIs designed for board and executive reporting:
-- Revenue velocity
-- Net margin trends
-- Capital efficiency indicators
-- Risk status signals
+*Decision enabled:*  
+**Is current performance protecting or eroding shareholder value?**
 
-![Executive Dashboard Preview](screenshots/Executive_summary.png)
+*(See: `screenshots/Executive_summary.png`)*
 
 ---
 
-### 2️⃣ Revenue & Growth Analysis
-Subscription lifecycle analytics focused on:
-- MRR / ARR growth trends
-- Retention tiers
-- Billing cycle distribution
+### 2️⃣ Revenue & Unit Economics Analysis
 
-![Revenue Analysis](screenshots/Revenue%20Analysis.png)
+Subscription-focused analytics covering:
 
----
+- MRR / ARR trends  
+- Retention tiers  
+- Billing cycle distribution  
 
-### 3️⃣ Capital Ratios & Risk Benchmarking
-Side‑by‑side entity comparison highlighting:
-- Return on Equity (ROE)
-- Debt‑to‑Equity ratios
-- Liquidity and leverage efficiency
+*Decision enabled:*  
+**Which revenue streams justify continued investment?**
 
-![Ratios Overview](screenshots/Ratios%20Overview.png)
+*(See: `screenshots/Revenue Analysis.png`)*
 
 ---
 
-### 4️⃣ Comparative Entity Performance
-Benchmark dashboards using gauge visuals to measure:
-- Entity performance against internal **15% ROE targets**
-- Underperformance via **traffic‑light risk logic**
+### 3️⃣ Capital Efficiency & Risk Benchmarking
 
-![Benchmark Dashboard](screenshots/Benchmark%20Dashboard.png)
+Side-by-side entity comparison of:
+
+- Return on Equity (ROE)  
+- Debt-to-Equity ratios  
+- Liquidity and leverage efficiency  
+
+*Decision enabled:*  
+**Where is capital underperforming or over-leveraged?**
+
+*(See: `screenshots/Ratios Overview.png`)*
 
 ---
 
-## 🚀 Technical Competencies Demonstrated
-- **Advanced DAX:** CAGR variables, SWITCH‑based logic, ALLEXCEPT context control  
-- **Financial Modeling:** SaaS unit economics, leverage efficiency, capital productivity  
-- **Executive UX/UI:** High‑density financial information design optimized for decision‑makers  
+### 4️⃣ Hurdle-Rate Accountability
+
+Gauge-based benchmarking against internal ROE targets.
+
+*Decision enabled:*  
+**Which entities require intervention, restructuring, or capital reallocation?**
+
+*(See: `screenshots/Benchmark Dashboard.png`)*
 
 ---
 
-## ⚙️ How to Explore This Project
-- **DAX Logic:** `/scripts/measures.dax`  
-- **Data Model:** `screenshots/Data_Model_Schema.png`  
-- **Interactive Dashboard:** `Project1-Dashboard.pbix`  
+### 5️⃣ Comparative Entity Performance
 
-## 📁 Repository Structure
+Direct side-by-side comparison of entity-level KPIs to identify underperformance.
+
+*(See: `screenshots/Comparative Dashboard.png`)*
+
+---
+
+## Tools & Methodologies
+
+- **Power BI** – data modeling, DAX measures, executive dashboards  
+- **Power Query (M)** – data transformation and normalization  
+- **Excel** – data preparation, reconciliation, and validation  
+- **SQL-based queries** – structured data extraction  
+- **Manual validation procedures** – accuracy and consistency checks  
+
+This reflects a **finance-led analytics workflow**, not a software engineering or machine learning pipeline.
+
+---
+
+## Validation & Accuracy
+
+To ensure reliability and governance:
+
+- Key metrics were reconciled against source financial data  
+- Ratio calculations were independently cross-checked  
+- Outputs were manually reviewed for consistency and completeness  
+
+The intent was to produce **audit-defensible executive reporting**, suitable for real-world finance environments.
+
+---
+
+## Repository Structure
 
 ```text
-Project_1_Executive_Dashboard/
+Project_1_Executive_SaaS_Financial_Performance_Dashboard/
 ├─ Data/
 │  ├─ Financial_Ratios_Reference.csv.xlsx
 │  └─ Financial_Raw_Data.csv.xlsx
@@ -106,16 +181,41 @@ Project_1_Executive_Dashboard/
 │  ├─ Ratios Overview.png
 │  ├─ Benchmark Dashboard.png
 │  └─ Comparative Dashboard.png
-├─ Data_Model_Schema.png
 ├─ scripts/
 │  └─ measures.dax
 ├─ Project1-Dashboard.pbix
 └─ README.md
+```
 
+---
 
-## 👨‍💻 Recruiter Note
-This project demonstrates the ability to translate **raw financial data into capital allocation and risk decisions**, directly applicable to roles in:
+## Professional & Industry Alignment
 
-**FP&A • Finance Transformation • Strategy • Analytics • CFO Office**
+This project aligns directly with:
 
-It reflects real‑world expectations of executive‑level financial intelligence delivery.
+- Corporate FP&A and Group Finance teams  
+- CFO Office and Finance Transformation roles  
+- Multi-entity and SaaS organisations  
+- Capital allocation and performance governance mandates  
+
+**Relevant roles:**  
+Senior FP&A Analyst · Strategic Finance Manager · Finance Transformation Lead · CFO Office Analyst · Decision Intelligence Analyst
+
+---
+
+## Scope Clarification
+
+This project **explicitly excludes**:
+
+- Forecasting or predictive modeling  
+- Advanced machine learning or AI systems  
+- Agentic or autonomous decision engines  
+- Conceptual roadmaps or future-state claims  
+
+It represents a **completed, production-style executive performance solution** focused on capital discipline and decision support.
+
+---
+
+## Closing Statement
+
+This project demonstrates a **disciplined, CFO-grade approach to financial performance governance**, emphasizing accountability, capital efficiency, and executive decision clarity over technical excess.
