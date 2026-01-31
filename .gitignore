@@ -1,0 +1,16 @@
+Ignore bulky Power BI files
+
+*.pbix
+
+Ignore Excel chart templates
+
+*.crtx
+
+Ignore backup and raw data folders to keep GitHub clean
+
+back_up/
+Data/
+Excel/
+Power Bi/
+Financial statement analysis/
+
